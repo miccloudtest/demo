@@ -23,7 +23,7 @@ node
                         sh '/usr/local/bin/cf login -a http://api.run.pivotal.io -u $USERNAME -p $PASSWORD'
                         sh '/usr/local/bin/cf push' */
                         pushToCloudFoundry cloudSpace: 'development', credentialsId: 'PCF_LOGIN', organization: 'gauri-org', target: 'api.run.pivotal.io'
-                    }
+
                     }
 }
 
